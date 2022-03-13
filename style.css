@@ -64,9 +64,41 @@ p{
     font-size: 10px;
 }
 .message{
-    background-color: #fc095a;
+    background-image: linear-gradient(to left, rgb(175, 23, 3),rgb(168, 90, 80));
+    text-align: center;
+    width: 250px;
+    height: 70px;
+    position: relative;
+    left: 43%;
+    border-radius: 10px;
 }
-#email{
-    background-color: #fc095a;
-    text-decoration: none;
+.msg{
+    padding-top: 5px;
+    font-size: 10px;
+    color: white;
+}
+.email{
+    padding-bottom: 5px;
+    color: white;
+}
+}
+.biography{
+    background-image: url(Images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.my-work{
+    background-image: url(Images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer{
+    background-image: url(Images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    text-align: center;
+    color: dimgray;
+    font-size: 15px;
 }
